@@ -1,0 +1,19 @@
+{
+  "name": "watchify-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "watchify . -o bundle.js -v",
+    "build": "browserify . -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^9.0.7",
+    "watchify": "^3.1.0"
+  },
+  "dependencies": {
+    "cat-ascii-faces": "^2.0.0"
+  }
+}
