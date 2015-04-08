@@ -1,6 +1,6 @@
 # watchify-bug
 
-a small example project to reproduce an outstanding bug in watchify that causes infinite rebuilds.
+a small example project to reproduce an [outstanding bug in watchify](https://github.com/substack/watchify/issues/190) that causes infinite rebuilds.
 
 ## how to reproduce
 
